@@ -232,12 +232,12 @@ export default function Menu() {
                   >
                     <div className="flex flex-row gap-3">
                       <Button size="icon" icon="svg">
-                        <Link href="/">
+                        <Link href="https://t.me/RostislavPolyakov1999">
                           <Telegram />
                         </Link>
                       </Button>
                       <Button size="icon" icon="svg">
-                        <Link href="/">
+                        <Link href="https://wa.me/79651864101">
                           <Whatsapp />
                         </Link>
                       </Button>
@@ -245,7 +245,7 @@ export default function Menu() {
                   </CircleLine>
                   <div className="text-background flex flex-col items-center font-bold text-base">
                     <Link href="mailto:info@f-a-f.ru">info@f-a-f.ru</Link>
-                    <Link href="tel:+79161234567">+7 (916) 123-45-67</Link>
+                    <Link href="tel:+79651864101">+7(965)186-41-01</Link>
                   </div>
                   <SheetClose asChild>
                     <Link href="/form" className="mx-auto">

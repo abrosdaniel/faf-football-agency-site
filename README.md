@@ -1,6 +1,6 @@
 <p align="center">
 <a href ="https://f-a-f.ru" target="_blank" title="FAF">
-<img src=".github/assets/Logo.svg" width="100px" alt="FAF"/>
+<img src=".github/assets/logo.png" width="150px" alt="FAF"/>
 </a>
 </p>
 <div align="center">
@@ -67,12 +67,23 @@ Developed on Next.js foundation with headless CMS capabilities, the website show
 
 ## Quick Start
 
-❗ You should already have Directus with tables and N8N with nodes set up.
+❗ **Prerequisites:**
 
-Clone the repository
+- ✅ Node.js 18+ installed
+- ✅ Directus with tables configured
+- ✅ N8N with nodes set up
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/abrosdaniel/faf-football-agency-site.git
+cp .env.example .env
+```
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
 Create `.env` in the project root:

@@ -77,7 +77,6 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/abrosdaniel/faf-football-agency-site.git
-cp .env.example .env
 ```
 
 Install dependencies:
